@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\admin22\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add prop-types
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Users\admin22\AppData\Local\Continuum\anaconda3;C:\Users\admin22\AppData\Local\Continuum\anaconda3\Library\mingw-w64\bin;C:\Users\admin22\AppData\Local\Continuum\anaconda3\Library\usr\bin;C:\Users\admin22\AppData\Local\Continuum\anaconda3\Library\bin;C:\Users\admin22\AppData\Local\Continuum\anaconda3\Scripts;C:\Users\admin22\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.1\bin;C:\Users\admin22\AppData\Roaming\npm;C:\Users\admin22\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000926.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\admin22\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:129645:19)
+      at Object.onceWrapper (events.js:273:13)
+      at ClientRequest.emit (events.js:182:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:662:40)
+      at Object.onceWrapper (events.js:273:13)
+      at TLSSocket.emit (events.js:182:13)
+      at TLSSocket.Socket._onTimeout (net.js:453:8)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+
+npm manifest: 
+  {
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.7.0",
+      "react-dom": "^16.7.0",
+      "react-scripts": "2.1.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
